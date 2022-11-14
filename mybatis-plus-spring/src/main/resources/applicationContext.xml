@@ -18,6 +18,7 @@
     <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
 
+
     </bean>
     <!-- 扫描mapper接口，使用的依然是Mybatis原生的扫描器 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
